@@ -1,0 +1,124 @@
+/* =======================
+   GENERAL BODY STYLES
+   Applies to the whole webpage
+   ======================= */
+body {
+    font-family: 'Open Sans', sans-serif; /* Default font */
+    background-color: #fff; /* White background */
+    color: #333; /* Dark grey text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* =======================
+   TOPBAR STYLES
+   Blue horizontal bar at the top
+   ======================= */ 
+.topbar {
+    background: #5888b9; /* Blue background */
+    color: #fff; /* White text */
+    padding: 0.5em; /* Inner spacing */
+    width: 100%; /* Full width */
+}
+
+/* Navigation links inside topbar */
+.nav-links {
+    list-style: none; /* Remove bullets */
+    display: flex; /* Horizontal layout */
+    gap: 2em; /* Space between links */
+    justify-content: center; /* Center horizontally */
+    margin: 0;
+    padding: 0;
+}
+
+/* Individual topbar link styles */
+.nav-links li a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+}
+
+/* =======================
+   LOGO STYLES
+   ======================= */
+.logo {
+    height: 15vh; /* 15% of viewport height */
+    margin-top: -3em; /* Slight upward adjustment */
+}
+
+/* =======================
+   MAIN NAVIGATION BAR
+   Links with small descriptions under logo
+   ======================= */
+.main-nav {
+    display: flex; /* Row layout */
+    justify-content: space-around; /* Even spacing */
+    background-color: #fff;
+    padding: 1em 4em 1em 2em; /* Top, right, bottom, left */
+}
+
+/* Individual nav sections (ABOUT SCE, PROGRAMMES, etc.) */
+.nav-section {
+    text-align: center; /* Center text */
+    padding: 1em; /* Inner spacing */
+}
+
+/* Links inside nav sections */
+.nav-section a {
+    display: block; /* Link above description */
+    color: #000; /* Black text */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Paragraph under each nav section link */
+.nav-section p {
+    font-size: 0.75em; /* Smaller font */
+    color: #555; /* Grey text */
+}
+
+/* Special red button style for STRATEGIC PLAN link */
+.btn-red {
+    background-color: #e74c3c; /* Red background */
+    color: #fff; /* White text */
+    padding: 1em 2em;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* =======================
+   BANNER STYLES
+   For announcements like semester reporting dates
+   ======================= */
+.banner {
+    background-color: #1565c0; /* Dark blue */
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+/* =======================
+   MAIN CONTENT AREA
+   ======================= */
+.main-content {
+    display: flex; /* Video + greetings in row */
+    padding: 1em 10%; /* Top/bottom 1em, sides 10% */
+    gap: 5em; /* Space between sections */
+}
+
+/* Video container */
+.video-container {
+    flex: 1 1 45%; /* Flexible width */
+}
+
+/* Greetings text container */
+.greetings {
+    flex: 1 1 45%;
+}
+
+/* Paragraph inside greetings */
+.greetings p {
+    text-align: justify; /* Justify text */
+}
